@@ -10,6 +10,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            MyClass objMyClass = new MyClass();
+            int sum = objMyClass.Sum(1, 2);
+        }
+
+
+    }
+
+    public class MyClass
+    {
+        public int Sum(int a, int b)
+        {
+            return a + b;
         }
     }
 }
